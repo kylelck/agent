@@ -13,6 +13,7 @@ import java.util.concurrent.Callable;
  * Copyright(c) for dianwoda
  */
 public class TimeInterceptor {
+    //assign null to a reference type from a void method, when you annotated the interceptors with @RuntimeType
     @RuntimeType
     public static Object intercept(@Origin Method method,
                                    @SuperCall Callable<?> callable) throws Exception {
