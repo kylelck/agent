@@ -32,7 +32,17 @@
           <version>3.21.0-GA</version>
           <type>jar</type>
       </dependency>
+      <dependency>
+          <groupId>net.bytebuddy</groupId>
+          <artifactId>byte-buddy</artifactId>
+          <version>1.8.0</version>
+      </dependency>
 
+      <dependency>
+          <groupId>net.bytebuddy</groupId>
+          <artifactId>byte-buddy-agent</artifactId>
+          <version>1.8.0</version>
+      </dependency>
   </dependencies>
 
   <build>

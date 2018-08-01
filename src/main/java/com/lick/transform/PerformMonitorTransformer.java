@@ -13,7 +13,7 @@ import java.security.ProtectionDomain;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
+/** javassist实现字节码增强
  * @author lichengkai
  * 2018-07-10: 下午3:05
  * Copyright(c) for dianwoda
